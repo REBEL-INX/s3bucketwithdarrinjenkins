@@ -238,7 +238,7 @@ def createJiraTicket(String issueTitle, String issueDescription) {
             def jiraPayload = """
             {
                 "fields": {
-                    "project": { "key": "jiraandjenkins" },
+                    "project": { "key": "JIR" },
                     "summary": "${issueTitle}",
                     "description": {
                         "type": "doc",
